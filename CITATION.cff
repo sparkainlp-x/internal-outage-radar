@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Internal Outage Radar"
+type: software
+authors:
+  - family-names: "Brisson"
+    given-names: "Jean-François"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+    affiliation: "Spark AI NLP"
+date-released: "2026-09-30"
+license: AGPL-3.0-only
+repository-code: "https://github.com/sparkainlp-x/internal-outage-radar"
+abstract: "Offline prototype that conservatively classifies the scope of failures in a saved JSON snapshot of an organization's own multi-site service checks."
+keywords:
+  - outage
+  - monitoring
+  - incident-triage
+  - offline
