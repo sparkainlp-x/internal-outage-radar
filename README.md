@@ -1,6 +1,10 @@
 # Internal Outage Radar (offline prototype)
 
-[![tests](https://github.com/sparkainlp-x/internal-outage-radar/actions/workflows/tests.yml/badge.svg)](https://github.com/sparkainlp-x/internal-outage-radar/actions/workflows/tests.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23057994.svg)](https://doi.org/10.5281/zenodo.23057994)
+[![tests](https://github.com/sparkainlp-x/internal-outage-radar/actions/workflows/tests.yml/badge.svg)](https://github.com/sparkainlp-x/internal-outage-radar/actions/workflows/tests.yml)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23057994.svg)](https://doi.org/10.5281/zenodo.23057994)
+[![Status: research prototype](https://img.shields.io/badge/status-research%20prototype-orange.svg)](#before-using-a-real-production-monitor)
+[![Evidence: SYNTHETIC](https://img.shields.io/badge/evidence-SYNTHETIC-blue.svg)](#before-using-a-real-production-monitor)
 
 Internal Outage Radar correlates your organization's own service-check results from
 multiple vantage sites. It helps answer "is this failure broad, isolated to one site, or
