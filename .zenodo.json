@@ -1,0 +1,34 @@
+{
+  "upload_type": "software",
+  "title": "Internal Outage Radar",
+  "description": "<p>Offline prototype that conservatively classifies the scope of failures in a saved JSON snapshot of an organization's own multi-site service checks.</p>",
+  "creators": [
+    {
+      "name": "Brisson, Jean-François",
+      "affiliation": "Spark AI NLP",
+      "orcid": "0009-0000-9778-5374"
+    }
+  ],
+  "access_right": "open",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "outage",
+    "monitoring",
+    "incident-triage",
+    "offline",
+    "research software"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sparkainlp-x/internal-outage-radar",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "language": "eng",
+  "communities": [
+    {
+      "identifier": "spark-ai-nlp"
+    }
+  ]
+}
