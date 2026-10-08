@@ -1,7 +1,9 @@
 {
   "upload_type": "software",
-  "title": "Internal Outage Radar",
-  "description": "<p>Offline prototype that conservatively classifies the scope of failures in a saved JSON snapshot of an organization's own multi-site service checks.</p>",
+  "title": "Internal Outage Radar: offline scope classification of multi-site service-check snapshots",
+  "version": "1.0.2",
+  "publication_date": "2026-10-08",
+  "description": "<p>Internal Outage Radar analyzes a saved JSON snapshot of an organization's own service checks taken from several vantage sites. For each service it reports failed, healthy, unknown and missing checks, whether a site quorum was met, and one deterministic scope class: dependency-wide, likely service-wide, site-local or connectivity-path, no observed failure, or insufficient evidence. Input is strictly validated (schema, duplicate keys, unknown references, quorum and timestamps), and partial coverage is reported explicitly rather than treated as success.</p><p>Scope: classifications are scope signals, not root-cause diagnoses; a dependency-wide result means failures overlap, not that the dependency caused them. The tool is not a live monitor, probe runner or network scanner and makes no network requests. The included snapshot is SYNTHETIC.</p><p>Usage: Python 3.10 or later, standard library only. Run <code>python3 outage_radar.py --input examples/sample_input.json</code>. Tests: <code>python3 -m unittest discover -s tests -v</code> (run in CI on Python 3.10 to 3.13).</p><p>Citation: cite the concept DOI <a href=\"https://doi.org/10.5281/zenodo.23057994\">10.5281/zenodo.23057994</a> for all versions, or the version DOI of the release you used. Source code: <a href=\"https://github.com/sparkainlp-x/internal-outage-radar\">github.com/sparkainlp-x/internal-outage-radar</a>. Licence: AGPL-3.0-only; commercial licensing is available (see COMMERCIAL-LICENSE.md).</p>",
   "creators": [
     {
       "name": "Brisson, Jean-François",
@@ -12,11 +14,14 @@
   "access_right": "open",
   "license": "AGPL-3.0-only",
   "keywords": [
-    "outage",
-    "monitoring",
-    "incident-triage",
-    "offline",
-    "research software"
+    "incident triage",
+    "service monitoring",
+    "outage scope",
+    "site reliability engineering",
+    "quorum",
+    "offline analysis",
+    "JSON schema",
+    "Python"
   ],
   "related_identifiers": [
     {
@@ -30,5 +35,6 @@
     {
       "identifier": "spark-ai-nlp"
     }
-  ]
+  ],
+  "notes": "Evidence status: SYNTHETIC example data; no field performance is claimed. Commercial licensing: see COMMERCIAL-LICENSE.md."
 }
