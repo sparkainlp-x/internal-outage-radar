@@ -119,7 +119,7 @@ None of those capabilities is implemented or implied here.
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff).
+See [CITATION.cff](CITATION.cff). Archived on Zenodo: concept DOI [10.5281/zenodo.23057994](https://doi.org/10.5281/zenodo.23057994) (all versions); v1.0.2: [10.5281/zenodo.23241692](https://doi.org/10.5281/zenodo.23241692).
 
 ## License
 

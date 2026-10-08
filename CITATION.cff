@@ -10,6 +10,13 @@ authors:
     affiliation: "Spark AI NLP"
 version: 1.0.2
 date-released: "2026-10-08"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23057994
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23241692
+    description: "Version DOI for v1.0.2"
 license: AGPL-3.0-only
 repository-code: "https://github.com/sparkainlp-x/internal-outage-radar"
 abstract: "Offline prototype that conservatively classifies the scope of failures in a saved JSON snapshot of an organization's own multi-site service checks."
